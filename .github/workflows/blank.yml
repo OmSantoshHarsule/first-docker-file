@@ -1,0 +1,13 @@
+name: om
+on: [push]
+
+jobs:
+ var-om:
+  runs-on: ubuntu-latest 
+  env:
+    PY_NODE: ${{ vars.OM_NODE }}
+  steps: 
+    - name: running the var
+      run: echo"$PY_NODE"
+   
+  
