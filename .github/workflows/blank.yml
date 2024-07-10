@@ -8,6 +8,6 @@ jobs:
     PY_NODE: ${{ vars.OM_NODE }}
   steps: 
     - name: running the var
-      run: echo"$PY_NODE"
+      run: echo "Hello $PY_NODE"
    
   
