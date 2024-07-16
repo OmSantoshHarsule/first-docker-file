@@ -1,0 +1,10 @@
+name: simple job
+on: [push]
+jobs:
+  simpletask:
+    runs-on: self-hosted
+    steps:
+      - name: checkout the code
+        run: actions/checkout@v4
+      - name: run a echo
+        run: echo " I am running on the self hosted runner"
