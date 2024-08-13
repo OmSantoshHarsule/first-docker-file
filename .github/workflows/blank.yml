@@ -1,8 +1,0 @@
-name: simple job
-on: [push]
-jobs:
-  simpletask:
-    runs-on: self-hosted
-    steps:
-      - name: run a echo
-        run: echo " I am running on the self hosted runner"
